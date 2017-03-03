@@ -16,6 +16,8 @@
 		C3F6495B1E64E4BE006B4DEE /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F6495A1E64E4BE006B4DEE /* RepresentativeController.swift */; };
 		C3F649601E64F575006B4DEE /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F6495F1E64F575006B4DEE /* States.swift */; };
 		C3F64A121E68C7E1006B4DEE /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F64A111E68C7E1006B4DEE /* StateListTableViewController.swift */; };
+		C3F64A161E68D7D5006B4DEE /* StateDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F64A151E68D7D5006B4DEE /* StateDetailTableViewController.swift */; };
+		C3F64A181E68E23B006B4DEE /* RepresentativeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F64A171E68E23B006B4DEE /* RepresentativeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		C3F6495A1E64E4BE006B4DEE /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
 		C3F6495F1E64F575006B4DEE /* States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
 		C3F64A111E68C7E1006B4DEE /* StateListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateListTableViewController.swift; sourceTree = "<group>"; };
+		C3F64A151E68D7D5006B4DEE /* StateDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDetailTableViewController.swift; sourceTree = "<group>"; };
+		C3F64A171E68E23B006B4DEE /* RepresentativeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				C3F6495D1E64E4D5006B4DEE /* Controllers */,
 				C3F6495E1E64E4DB006B4DEE /* ModelControllers */,
 				C3F64A131E68CC3D006B4DEE /* ViewControllers */,
+				C3F64A191E68E242006B4DEE /* View */,
 				C3F64A141E68CC5A006B4DEE /* SupportFiles */,
 			);
 			path = Representatives;
@@ -102,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				C3F64A111E68C7E1006B4DEE /* StateListTableViewController.swift */,
+				C3F64A151E68D7D5006B4DEE /* StateDetailTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -114,6 +120,14 @@
 				C3F649501E64D4D1006B4DEE /* Info.plist */,
 			);
 			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		C3F64A191E68E242006B4DEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3F64A171E68E23B006B4DEE /* RepresentativeTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,10 +202,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F64A181E68E23B006B4DEE /* RepresentativeTableViewCell.swift in Sources */,
 				C3F649601E64F575006B4DEE /* States.swift in Sources */,
 				C3F64A121E68C7E1006B4DEE /* StateListTableViewController.swift in Sources */,
 				C3F649571E64DB3E006B4DEE /* Representative.swift in Sources */,
 				C3F649451E64D4D1006B4DEE /* AppDelegate.swift in Sources */,
+				C3F64A161E68D7D5006B4DEE /* StateDetailTableViewController.swift in Sources */,
 				C3F6495B1E64E4BE006B4DEE /* RepresentativeController.swift in Sources */,
 				C3F649591E64E0DD006B4DEE /* NetworkController.swift in Sources */,
 			);
